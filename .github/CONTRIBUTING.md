@@ -42,7 +42,6 @@ See: [Add Reactions](https://github.blog/news-insights/product-news/add-reaction
 
 ### Markdown
 
-Pages are written in [Python-Markdown](https://python-markdown.github.io/).
 Documentation is written in [GitHub Flavored Markdown](https://docs.github.com/en/get-started/writing-on-github).
 
 [markdownlint](https://github.com/DavidAnson/markdownlint) is used to enforce style rules for Markdown files.

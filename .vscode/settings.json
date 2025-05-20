@@ -1,0 +1,63 @@
+{
+	"[css]": {
+		"editor.defaultFormatter": null
+	},
+	"[css][plaintext][txt][yaml]": {
+		"editor.insertSpaces": true,
+		"editor.tabSize": 2
+	},
+	"[json][jsonc]": {
+		"editor.insertSpaces": false,
+		"editor.tabSize": 4
+	},
+	"[markdown]": {
+		"editor.defaultFormatter": "DavidAnson.vscode-markdownlint",
+		"editor.insertSpaces": true,
+		"editor.quickSuggestions": {
+			"other": "off"
+		},
+		"editor.tabSize": 2,
+		"files.trimTrailingWhitespace": false
+	},
+	"[plaintext][txt]": {
+		"files.insertFinalNewline": false,
+		"files.trimFinalNewlines": true,
+		"files.trimTrailingWhitespace": false
+	},
+	"[scminput]": {
+		"editor.rulers": [
+			70
+		]
+	},
+	"css.format.enable": false,
+	"editor.defaultFormatter": null,
+	"editor.detectIndentation": false,
+	"editor.rulers": [],
+	"explorer.fileNesting.enabled": true,
+	"explorer.fileNesting.patterns": {
+		".markdownlint.yml": ".markdownlint-cli2.jsonc",
+		".tool-versions": ".python-version"
+	},
+	"files.insertFinalNewline": true,
+	"files.readonlyInclude": {
+		"**/LICENSE*": true
+	},
+	"files.trimFinalNewlines": true,
+	"files.trimTrailingWhitespace": true,
+	"git.inputValidation": true,
+	"git.inputValidationLength": 70,
+	"git.inputValidationSubjectLength": 70,
+	"markdown.validate.enabled": false,
+	"markdown.validate.fileLinks.enabled": "ignore",
+	"markdown.validate.referenceLinks.enabled": "ignore",
+	"terminal.integrated.defaultProfile.windows": "WSL",
+	"terminal.integrated.profiles.windows": {
+		"WSL": {
+			"icon": "terminal-linux",
+			"path": "${env:windir}\\system32\\wsl.exe"
+		}
+	},
+	"yaml.schemas": {
+		"https://json.schemastore.org/github-issue-config.json": ".github/ISSUE_TEMPLATE/config.yml"
+	}
+}

@@ -1,0 +1,32 @@
+<!-- markdownlint-disable-next-line MD041 -->
+<div align="center">
+  <img width="64" src="https://cdn.jsdelivr.net/npm/@svgmoji/twemoji@2.0.0/svg/1F311.svg" alt="Logo">
+</div>
+
+<div align="center">
+  <strong>mkdocs-material-midnight</strong>
+</div>
+
+<p align="center">
+  <em>A Material for MkDocs theme</em>
+</p>
+
+[![Badge](https://img.shields.io/badge/Material%20for%20MkDocs-%3E%3D%209.6-2094f3?style=for-the-badge&labelColor=4051b5&logo=materialformkdocs&logoColor=fff)](https://squidfunk.github.io/mkdocs-material/)  
+[Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) theme inspired by Discord and Reddit color palettes.
+
+## Getting Started
+
+To use this theme in your Material for MkDocs documentation:
+
+1. Add this repository as a submodule
+
+   ```sh
+   git submodule add "https://github.com/Strappazzon/mkdocs-material-midnight"
+   ```
+
+2. Reference the stylesheet in your configuration
+
+   ```yaml
+   extra_css:
+     - path/to/midnight.css
+   ```

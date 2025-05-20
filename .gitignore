@@ -1,0 +1,12 @@
+# VS Code
+.vscode/*
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/settings.json
+
+# Junk files (Linux)
+**/*.swp
+
+# Junk files (Windows)
+**/[Dd]esktop.ini
+**/Thumbs.db

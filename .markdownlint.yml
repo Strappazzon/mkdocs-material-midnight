@@ -1,0 +1,63 @@
+# See: https://github.com/DavidAnson/markdownlint#rules--aliases
+
+default: true
+
+# Code block style
+code-block-style:
+  style: fenced
+
+# Fenced code block style
+code-fence-style:
+  style: backtick
+
+# Don't require output for commands
+commands-show-output: false
+
+# Emphasis symbol
+emphasis-style:
+  style: asterisk
+
+# Heading style
+heading-style:
+  style: atx
+
+# Horizontal rule style
+hr-style:
+  style: "---"
+
+# Line length
+line-length: false
+
+# Duplicate headings
+no-duplicate-heading:
+  siblings_only: true
+
+# Allow in-line HTML elements
+no-inline-html: false
+
+# Trailing punctuation whitelist
+no-trailing-punctuation:
+  punctuation: ".:!?"
+
+# Ordered list style
+ol-prefix:
+  style: ordered
+
+# Disallow multiple level 1 headings
+single-title:
+  level: 1
+  # Ignore Front Matter titles
+  front_matter_title: ""
+
+# Bold text symbol
+strong-style:
+  style: asterisk
+
+# List indentation
+ul-indent:
+  indent: 4
+  start_indented: false
+
+# Unordered list symbol
+ul-style:
+  style: dash

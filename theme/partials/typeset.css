@@ -1,0 +1,186 @@
+/*
+  Copyright (c) 2025 Strappazzon
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to deal
+  in the Software without restriction, including without limitation the rights
+  to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in all
+  copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+  SOFTWARE.
+*/
+
+:root {
+  --mdx-external-url-icon: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5,17.59L15.59,7H9V5H19V15H17V8.41L6.41,19L5,17.59Z"/></svg>');
+}
+
+/* Navigation */
+
+.md-tabs {
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+/* Tags */
+
+.md-typeset .md-tag {
+  font-weight: 100;
+  gap: 0.25em;
+  padding: 0.2em 0.5em;
+}
+
+.md-typeset .md-tag {
+  border-radius: 0;
+  font-size: small;
+}
+
+/* Headings */
+
+.md-typeset h1 {
+  margin: 0 0 0.75em;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.md-typeset .headerlink {
+  font-weight: 400;
+}
+
+.md-typeset h2 {
+  font-weight: 400;
+}
+
+/* Text */
+
+.md-typeset mark {
+  padding: 0 2px;
+}
+
+/* External link marker */
+
+.md-typeset a[href^='https://']:not(:has(img, svg)):after,
+.md-typeset a[href^='http://']:not(:has(img, svg)):after,
+.md-nav__link[href^='https://'] > .md-ellipsis:after,
+.md-nav__link[href^='http://'] > .md-ellipsis:after {
+  content: '';
+  height: 1em;
+  width: 1em;
+  margin: 0 2px;
+  display: inline-block;
+  background-color: var(--mdx-fg-gray);
+  mask-image: var(--mdx-external-url-icon);
+  -webkit-mask-image: var(--mdx-external-url-icon);
+  mask-position: center;
+  -webkit-mask-position: center;
+  mask-repeat: no-repeat;
+  -webkit-mask-repeat: no-repeat;
+  mask-size: contain;
+  -webkit-mask-size: contain;
+  vertical-align: middle;
+}
+
+.md-nav__link[href^='https://'] > .md-ellipsis:after,
+.md-nav__link[href^='http://'] > .md-ellipsis:after {
+  margin: 0;
+}
+
+/* Lists */
+
+.md-typeset ul ol {
+  list-style-type: decimal;
+}
+
+/* Code blocks */
+
+.md-typeset code {
+  border-radius: 0;
+}
+
+.highlight span.filename {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  padding-top: 0.33em;
+  padding-bottom: 0.33em;
+}
+
+/* Buttons */
+
+.md-typeset kbd {
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.md-typeset .md-button {
+  font-weight: unset;
+  font-size: 0.875em;
+  text-transform: uppercase;
+  border-width: 0.1em;
+  border-radius: 0;
+  padding: 0.5em 1em;
+}
+
+/* Cards */
+
+.md-typeset .grid.cards > ol > li,
+.md-typeset .grid.cards > ul > li,
+.md-typeset .grid > .card {
+  border-radius: 0;
+}
+
+.md-typeset .grid.cards > ol > li > p,
+.md-typeset .grid.cards > ul > li > p,
+.md-typeset .grid > .card > p {
+  text-transform: uppercase;
+}
+
+.md-typeset .grid.cards p > img {
+  aspect-ratio: 32 / 9;
+  object-fit: cover;
+}
+
+/* Content tabs */
+
+.md-typeset .tabbed-set {
+  border-radius: 0;
+}
+
+.js .md-typeset .tabbed-labels:before {
+  content: unset;
+}
+
+.md-typeset .tabbed-labels > label {
+  border-radius: 0;
+}
+
+.md-typeset .tabbed-labels {
+  padding: 0.33em 0;
+}
+
+.md-typeset .tabbed-labels--linked > label > a {
+  padding: 0 0.66em;
+}
+
+.md-typeset .tabbed-labels--linked > label:first-child > a {
+  padding-left: 1.2em;
+}
+
+.md-typeset .tabbed-labels--linked > label:last-child > a {
+  padding-right: 1.2em;
+}
+
+/* Fixes */
+
+/* Color applied to list item marker */
+.md-typeset p ~ ul li[class]::marker {
+  color: var(--md-default-fg-color);
+}

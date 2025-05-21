@@ -3,12 +3,6 @@
 By participating, you agree to abide by the [Code of Conduct](https://github.com/Strappazzon/.github/blob/-/CODE_OF_CONDUCT.md).  
 When submitting changes to this repository, you agree that the content you contribute may be provided under the terms of the [MIT License](https://opensource.org/licenses/MIT).
 
-> [!IMPORTANT]
-> This is a **personal** Knowledge Base, and for this reason
-> new information will likely **NOT** be accepted.
->
-> However, you can still propose/submit fixes/improvements.
-
 ## I Have a Question
 
 Before you ask a question, search for existing [Discussions](https://github.com/Strappazzon/mkdocs-material-midnight/discussions/categories/questions) that might help you.  

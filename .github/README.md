@@ -12,7 +12,9 @@
 </p>
 
 [![Badge](https://img.shields.io/badge/Material%20for%20MkDocs-%3E%3D%209.6-2094f3?style=for-the-badge&labelColor=4051b5&logo=materialformkdocs&logoColor=fff)](https://squidfunk.github.io/mkdocs-material/)  
-[Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) theme inspired by Discord and Reddit color palettes.
+[Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) theme inspired by Discord and Reddit color palettes. For consistency, this theme will modify the default color scheme as well.
+
+You can see how it looks [here](https://gkb.strappazzon.xyz) on my gaming Knowledge Base.
 
 ## Getting Started
 

@@ -1,0 +1,14 @@
+blank_issues_enabled: false
+
+contact_links:
+  - name: Contributing Guidelines
+    url: https://github.com/Strappazzon/mkdocs-material-midnight/blob/-/.github/CONTRIBUTING.md
+    about: Please read through before making any contribution.
+
+  - name: Code of Conduct
+    url: https://github.com/Strappazzon/.github/blob/-/CODE_OF_CONDUCT.md
+    about: Please make sure to adhere to the code of conduct.
+
+  - name: Discussions
+    url: https://github.com/Strappazzon/mkdocs-material-midnight/discussions/categories/questions
+    about: Ask questions here.

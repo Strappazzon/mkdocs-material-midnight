@@ -54,6 +54,11 @@
   display: none;
 }
 
+/* <form> and <button> have two different colors otherwise */
+.md-header__button {
+  color: var(--md-primary-bg-color);
+}
+
 /*
   Search
   https://github.com/privacyguides/privacyguides.org/blob/de2b529/theme/assets/stylesheets/extra.css#L395

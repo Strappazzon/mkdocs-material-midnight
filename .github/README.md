@@ -32,3 +32,24 @@ To use this theme in your Material for MkDocs documentation:
    extra_css:
      - path/to/midnight.css
    ```
+
+## Recommended Configuration
+
+```yaml
+theme:
+  font:
+    text: Montserrat
+    code: Fira Code
+  icon:
+    admonition:
+      bug: material/bug
+      danger: material/close-octagon
+      example: material/format-list-bulleted-square
+      info: material/information-box
+      note: material/pencil-box
+      question: material/help-box
+      tip: material/lightbulb
+    annotation: material/pencil-box
+    edit: material/text-box-edit
+    view: octicons/markdown-16
+```

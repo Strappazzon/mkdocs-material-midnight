@@ -37,6 +37,22 @@ To use this theme in your Material for MkDocs documentation:
 
 ```yaml
 theme:
+  palette:
+    - media: "(prefers-color-scheme)"
+      scheme: default
+      primary: white
+      toggle:
+        icon: material/lightbulb-auto-outline
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      toggle:
+        icon: material/lightbulb-off
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: white
+      toggle:
+        icon: material/lightbulb-on-outline
   font:
     text: Montserrat
     code: Fira Code

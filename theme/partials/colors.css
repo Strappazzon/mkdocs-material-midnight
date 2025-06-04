@@ -556,18 +556,6 @@
   color: var(--mdx-admonition-fg-color--warning);
 }
 
-/* Icons */
-
-.icon-youtube,
-.icon-yt {
-  color: #ee0f0f;
-}
-
-[data-md-color-scheme='slate'] .icon-youtube,
-[data-md-color-scheme='slate'] .icon-yt {
-  color: #ff0033;
-}
-
 /* Page metadata */
 
 .md-source-file__fact {

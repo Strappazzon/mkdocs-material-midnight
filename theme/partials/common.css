@@ -54,6 +54,24 @@
   color: var(--md-primary-bg-color);
 }
 
+@media screen and (min-width: 76.25em) {
+  [dir='ltr'] .md-header__source {
+    margin-left: unset;
+  }
+  [dir='rtl'] .md-header__source {
+    margin-right: unset;
+  }
+}
+
+@media screen and (min-width: 60em) {
+  [dir='ltr'] .md-header__source {
+    margin-left: unset;
+  }
+  [dir='rtl'] .md-header__source {
+    margin-right: unset;
+  }
+}
+
 /*
   Search
   https://github.com/privacyguides/privacyguides.org/blob/de2b529/theme/assets/stylesheets/extra.css#L395

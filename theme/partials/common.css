@@ -49,11 +49,6 @@
   transform: translateY(0.35rem);
 }
 
-.md-header__source,
-.md-nav__source {
-  display: none;
-}
-
 /* <form> and <button> have two different colors otherwise */
 .md-header__button {
   color: var(--md-primary-bg-color);
@@ -97,16 +92,6 @@
 
 .md-nav__link {
   margin-top: 0.25rem;
-}
-
-/*
-  Page content width
-  https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#content-area-width
-  See also: contentwidth.css
-*/
-
-.md-grid {
-  max-width: 1440px;
 }
 
 /* Buttons */

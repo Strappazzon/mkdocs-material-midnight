@@ -20,10 +20,6 @@
   SOFTWARE.
 */
 
-:root {
-  --mdx-external-url-icon: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5,17.59L15.59,7H9V5H19V15H17V8.41L6.41,19L5,17.59Z"/></svg>');
-}
-
 /* Navigation */
 
 .md-tabs {
@@ -64,34 +60,6 @@
 
 .md-typeset mark {
   padding: 0 2px;
-}
-
-/* External link marker */
-
-.md-typeset a[href^='https://']:not(:has(img, svg)):after,
-.md-typeset a[href^='http://']:not(:has(img, svg)):after,
-.md-nav__link[href^='https://'] > .md-ellipsis:after,
-.md-nav__link[href^='http://'] > .md-ellipsis:after {
-  content: '';
-  height: 1em;
-  width: 1em;
-  margin: 0 2px;
-  display: inline-block;
-  background-color: var(--mdx-fg-gray);
-  mask-image: var(--mdx-external-url-icon);
-  -webkit-mask-image: var(--mdx-external-url-icon);
-  mask-position: center;
-  -webkit-mask-position: center;
-  mask-repeat: no-repeat;
-  -webkit-mask-repeat: no-repeat;
-  mask-size: contain;
-  -webkit-mask-size: contain;
-  vertical-align: middle;
-}
-
-.md-nav__link[href^='https://'] > .md-ellipsis:after,
-.md-nav__link[href^='http://'] > .md-ellipsis:after {
-  margin: 0;
 }
 
 /* Lists */

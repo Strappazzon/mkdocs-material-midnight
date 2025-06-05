@@ -53,9 +53,6 @@ theme:
       primary: white
       toggle:
         icon: material/lightbulb-on-outline
-  font:
-    text: Montserrat
-    code: Fira Code
   icon:
     admonition:
       bug: material/bug

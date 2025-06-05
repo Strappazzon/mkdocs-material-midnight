@@ -32,9 +32,3 @@ table th[colspan] ~ th {
 .md-typeset table th[role='columnheader']:hover:after {
   background-color: var(--md-code-fg-color);
 }
-
-/* Code wrapping */
-
-.md-typeset__table code {
-  word-break: keep-all;
-}

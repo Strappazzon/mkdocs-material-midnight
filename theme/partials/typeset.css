@@ -128,6 +128,7 @@
 
 .md-typeset .tabbed-labels > label {
   border-radius: 0;
+  border-bottom: unset;
 }
 
 .md-typeset .tabbed-labels {

@@ -23,7 +23,8 @@
 /* Border radius */
 
 .md-typeset .admonition,
-.md-typeset details {
+.md-typeset details,
+.md-typeset details:not([open]) > summary {
   border-radius: 0;
 }
 

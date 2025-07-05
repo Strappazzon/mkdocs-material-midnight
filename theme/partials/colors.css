@@ -31,6 +31,10 @@
   --md-code-hl-color:        var(--md-accent-fg-color);
   --md-code-hl-color--light: var(--md-accent-fg-color--transparent);
 
+  --md-typeset-del-color:  #ea002766;
+  --md-typeset-ins-color:  #46d16066;
+  --md-typeset-mark-color: #f8d83f80;
+
   --mdx-border-color:        #00000012;
   --mdx-code-title-bg-color: #cfd0d3;
   --mdx-hero-bg-color:       var(--md-default-fg-color--lightest);

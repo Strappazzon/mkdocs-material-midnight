@@ -205,6 +205,12 @@
   background-color: var(--md-default-fg-color--light);
 }
 
+/* Text */
+
+[data-md-color-scheme='slate'] .md-typeset abbr {
+  border-bottom-color: var(--md-default-fg-color);
+}
+
 /* Buttons */
 
 [data-md-color-scheme='slate'] .md-top {
@@ -575,12 +581,6 @@
 
 [data-md-color-scheme='slate'] .md-footer:not(:has(.md-footer__inner)) {
   border-top: unset;
-}
-
-/* Abbreviations */
-
-[data-md-color-scheme='slate'] .md-typeset abbr {
-  border-bottom-color: var(--md-default-fg-color);
 }
 
 /* Tooltips */

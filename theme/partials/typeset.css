@@ -90,6 +90,7 @@
 .md-typeset kbd {
   cursor: pointer;
   text-transform: uppercase;
+  border-bottom-width: 0.1875rem;
 }
 
 .md-typeset .md-button {

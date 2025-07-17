@@ -226,7 +226,6 @@
 .md-typeset kbd {
   box-shadow: none;
   border: 0.0625rem solid var(--mdx-kbd-border-color);
-  border-bottom-width: 0.1875rem;
 }
 
 [data-md-color-scheme='default'] .md-clipboard,

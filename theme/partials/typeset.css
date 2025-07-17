@@ -85,6 +85,16 @@
   padding-bottom: 0.33em;
 }
 
+/* Blockquotes */
+
+[dir='ltr'] .md-typeset blockquote {
+  border-left-width: 0.2rem;
+}
+
+[dir='rtl'] .md-typeset blockquote {
+  border-right-width: 0.2rem;
+}
+
 /* Buttons */
 
 .md-typeset kbd {

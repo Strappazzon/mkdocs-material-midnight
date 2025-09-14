@@ -20,6 +20,10 @@
   SOFTWARE.
 */
 
+.md-typeset table:not([class]) {
+  border-radius: 0;
+}
+
 /* Hide cells after colspan */
 
 table td[colspan] ~ td,

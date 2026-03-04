@@ -216,7 +216,7 @@
 
 /* Tables */
 
-.md-typeset table:not([class]) th {
+.md-typeset table:not([class]) th:not([class]) {
   background-color: var(--md-typeset-table-header-color);
 }
 

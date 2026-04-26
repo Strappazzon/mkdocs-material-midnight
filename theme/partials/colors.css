@@ -210,7 +210,8 @@
 
 /* Text */
 
-[data-md-color-scheme='slate'] .md-typeset abbr {
+[data-md-color-scheme='slate'] .md-typeset abbr,
+[data-md-color-scheme='slate'] .md-typeset [data-preview] {
   border-bottom-color: var(--md-default-fg-color);
 }
 

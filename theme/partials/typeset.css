@@ -58,7 +58,8 @@
 
 /* Text */
 
-.md-typeset abbr {
+.md-typeset abbr,
+.md-typeset [data-preview] {
   border-bottom-style: solid;
 }
 

@@ -28,14 +28,59 @@
   border-radius: 0;
 }
 
-[dir=ltr] .md-typeset .admonition-title,
-[dir=ltr] .md-typeset summary {
+[dir='ltr'] .md-typeset .admonition-title,
+[dir='ltr'] .md-typeset summary {
   border-top-left-radius: 0;
 }
 
-[dir=ltr] .md-typeset .admonition-title,
-[dir=ltr] .md-typeset summary,
-[dir=rtl] .md-typeset .admonition-title,
-[dir=rtl] .md-typeset summary {
+[dir='ltr'] .md-typeset .admonition-title,
+[dir='ltr'] .md-typeset summary,
+[dir='rtl'] .md-typeset .admonition-title,
+[dir='rtl'] .md-typeset summary {
   border-top-right-radius: 0;
+}
+
+/* Shadows */
+
+.md-typeset .admonition,
+.md-typeset details {
+  box-shadow: none;
+}
+
+.md-typeset .admonition.abstract:focus-within,
+.md-typeset details.abstract:focus-within,
+
+.md-typeset .admonition.bug:focus-within,
+.md-typeset details.bug:focus-within,
+
+.md-typeset .admonition.danger:focus-within,
+.md-typeset details.danger:focus-within,
+
+.md-typeset .admonition.example:focus-within,
+.md-typeset details.example:focus-within,
+
+.md-typeset .admonition.failure:focus-within,
+.md-typeset details.failure:focus-within,
+
+.md-typeset .admonition.info:focus-within,
+.md-typeset details.info:focus-within,
+
+.md-typeset .admonition.note:focus-within,
+.md-typeset details.note:focus-within,
+
+.md-typeset .admonition.question:focus-within,
+.md-typeset details.question:focus-within,
+
+.md-typeset .admonition.quote:focus-within,
+.md-typeset details.quote:focus-within,
+
+.md-typeset .admonition.success:focus-within,
+.md-typeset details.success:focus-within,
+
+.md-typeset .admonition.tip:focus-within,
+.md-typeset details.tip:focus-within,
+
+.md-typeset .admonition.warning:focus-within,
+.md-typeset details.warning:focus-within {
+  box-shadow: none;
 }

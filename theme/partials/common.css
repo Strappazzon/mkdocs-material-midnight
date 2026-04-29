@@ -112,6 +112,12 @@
   margin-top: 0.25rem;
 }
 
+/* Main Content */
+
+.md-main__inner {
+  margin-top: 0.25rem;
+}
+
 /* Buttons */
 
 .md-top {

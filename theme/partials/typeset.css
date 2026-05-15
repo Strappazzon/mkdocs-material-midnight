@@ -117,17 +117,6 @@
   border-radius: 0;
 }
 
-.md-typeset .grid.cards > ol > li > p,
-.md-typeset .grid.cards > ul > li > p,
-.md-typeset .grid > .card > p {
-  text-transform: uppercase;
-}
-
-.md-typeset .grid.cards p > img {
-  aspect-ratio: 32 / 9;
-  object-fit: cover;
-}
-
 /* Content tabs */
 
 .md-typeset .tabbed-set {
